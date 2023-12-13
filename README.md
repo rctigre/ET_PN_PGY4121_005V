@@ -31,7 +31,7 @@
 ## Uso de la aplicación:
 <li/>Se presentará una pantalla de carga y va a redirigir a la pantalla de login
 <li/>Ingresar las siguientes credenciales correo@correo.cl 123456  (Por el contexto del negocio no se permiten registrar usuarios, las credenciales se les entregarán a los alumnos)
-<li/>Hay que tener en cuenta que está aplicación valida la geolocalización por lo que se recomienda usar el navegador Google Chrome e instalar el complemento Spoof Geolocation, luego con Google Maps se obtienen las coordenadas de Duoc UC Plaza Norte y se ingresan esas coordenadas en el complemento.
+<li/>Hay que tener en cuenta que está aplicación valida la geolocalización por lo que se recomienda usar el navegador Google Chrome e instalar el complemento Spoof Geolocation, luego, con Google Maps, se obtienen las coordenadas de Duoc UC Plaza Norte y se ingresan esas coordenadas en el complemento.
 <li/>Click en "marcar asistencia" y debería aparecer un mensaje en verde indicando que la asistencia fue ingresada correctamente
 <li/>La lectura de QR no está implementada aun, por lo tanto los datos de la asignatura se deben ingresar en duro en el código, los pasos son los siguientes
 <li/>En este path: tsAppeo\tsappeo\src\app\pages\marcar-asistencia\marcar-asistencia.page.ts
