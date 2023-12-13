@@ -1,0 +1,77 @@
+<ion-header [translucent]="true">
+  <app-header>
+  </app-header>
+</ion-header>
+<app-sidebar></app-sidebar>
+
+<ion-content [fullscreen]="true">
+
+  <ion-content [fullscreen]="true">
+    <ion-grid>
+      <ion-row >
+        <ion-col id="titulo">
+          <h1 class="bold">ASISTENCIAS REGISTRADAS
+          </h1>
+        </ion-col>
+      </ion-row>
+        
+
+<!--datos de asistencia desde bd -->
+
+<ion-row>
+  <ion-col size="12">
+    <table>
+      <tr>
+        <th>Asignatura</th>
+        <th>Sección</th>
+        <th>Hora</th>
+        <th>Fecha</th>
+        <th>Estado</th>
+      </tr>
+      <ng-container *ngFor="let asignatura of asignaturas; let i = index">
+        <ng-container *ngFor="let asistencia of asignatura.asistencia; let j = index">
+          <tr>
+            <td>
+              <ion-item>
+                <ion-textarea [readonly]="true" [placeholder]="asignatura.nombre_asig"></ion-textarea>
+              </ion-item>
+            </td>
+            <td>
+              <ion-item>
+                <ion-textarea [readonly]="true" [placeholder]="asignatura.seccion"></ion-textarea>
+              </ion-item>
+            </td>
+            <td>
+              <ion-item>
+                <ion-textarea [readonly]="true" [placeholder]="asistencia.hora"></ion-textarea>
+              </ion-item>
+            </td>
+            <td>
+              <ion-item>
+                <ion-textarea [readonly]="true" [placeholder]="asistencia.fecha"></ion-textarea>
+              </ion-item>
+            </td>
+            <td>
+              <ion-item>
+                <ion-textarea [readonly]="true" [placeholder]="asistencia.estaPresente ? 'Presente' : 'Ausente'"></ion-textarea>
+              </ion-item>
+            </td>
+          </tr>
+        </ng-container>
+      </ng-container>
+    </table>
+  </ion-col>
+</ion-row>
+
+        
+    </ion-grid>
+   
+  </ion-content>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <app-tabs></app-tabs>
+  </ion-toolbar>
+</ion-footer>
