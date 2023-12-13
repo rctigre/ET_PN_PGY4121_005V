@@ -39,8 +39,6 @@
 <li/>Los datos hora y estaPresente no se validan por el momento debido a que está en espera a que implementemo la lectura QR <br/>
 
 ## NOTA:
-Las demás funcionalidades se pueden descubrir dentro de la misma app<br/>
-<br/>
 Consultas por favor al soporte: pagapp2022@gmail.com
 
 
