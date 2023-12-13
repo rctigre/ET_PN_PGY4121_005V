@@ -2,10 +2,10 @@
 
 **NombreProyecto: tsAPPeo**<br/><br/>
 ## Integrantes:
-<li/>Victor Valenzuela 16.741.653-5<br/>
-<li/>Nicolás Ulloa 18.859.770-k<br/>
-<li/>Francisco Tapia 17.770.640-k<br/>
-<li/>Ricardo Castillo 15.775.973-6<br/>
+<li/>Victor Valenzuela <br/>
+<li/>Nicolás Ulloa <br/>
+<li/>Francisco Tapia <br/>
+<li/>Ricardo Castillo <br/>
 
 ## Proyecto:<br/>
 <li/>El objetivo final de esta app (una vez terminado en su totalidad) es reemplazar el modo en que se registra la asistencia a clases, con esto la responsabilidad queda en manos del alumno utilizando su smartphone para escanear un código QR que estará en la sala o generado por el profesor (Se está evaluando).
