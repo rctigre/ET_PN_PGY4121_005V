@@ -11,11 +11,10 @@
 <li/>El objetivo final de esta app (una vez terminado en su totalidad) es reemplazar el modo en que se registra la asistencia a clases, con esto la responsabilidad queda en manos del alumno utilizando su smartphone para escanear un código QR que estará en la sala o generado por el profesor (Se está evaluando).
 
 ## A tener en cuenta:
-<br/>
 <li/>Este desarrollo se realizó con Ionic + Firebase (authentication y Firestore).
 <li/>Se está trabajando en la implementación de lectura QR por lo tanto la asistencia se debe ingresar como dato en duro en el código.<br/>
 
-## Pasos para ambientar el proyecto: <br/>
+## Pasos para ambientar el proyecto:
 <li/>Clonar el repositorio
 <li/>Abrirlo en Visual Studio Code
 <li/>Abrir la terminal de Visual Studio Code y ejecutar los siguientes comandos
@@ -29,7 +28,7 @@
 <li/>En todas las líneas (dos líneas) "data(options?: SnapshotOptions): T;" se debe reemplazar por "data(options?: SnapshotOptions): any;" la T por any
 <li/>ionic serve <br/>
   
-## Uso de la aplicación: <br/>
+## Uso de la aplicación:
 <li/>Se presentará una pantalla de carga y va a redirigir a la pantalla de login
 <li/>Ingresar las siguientes credenciales correo@correo.cl 123456  (Por el contexto del negocio no se permiten registrar usuarios, las credenciales se les entregarán a los alumnos)
 <li/>Hay que tener en cuenta que está aplicación valida la geolocalización por lo que se recomienda usar el navegador Google Chrome e instalar el complemento Spoof Geolocation, luego con Google Maps se obtienen las coordenadas de Duoc UC Plaza Norte y se ingresan esas coordenadas en el complemento.
